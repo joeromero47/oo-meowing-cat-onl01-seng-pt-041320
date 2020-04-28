@@ -4,6 +4,6 @@ class Cat
     @meow=cat_noise
   end
   def cat_noise
-    @meow
+    @meow puts "meow!"
   end
 end
